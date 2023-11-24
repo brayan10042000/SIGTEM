@@ -1,0 +1,674 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIGTEM</title>
+    <link rel="icon" type="image/x-icon" href="/IMG/logo.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"><!-- Font Awesome CSS -->
+    <link rel = "stylesheet" href = "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="css/main-style.css">
+    <style type="text/css">
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+  nav ul li a {
+  display: block;
+  padding: 0 15px;
+  line-height: 70px;
+  background: #ffffff;
+  color: #463f3f;
+  text-decoration: none;
+  /*
+  The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
+  */
+}
+.call-btn{
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    z-index: 1000;
+}
+.call-btn img{
+    height: 60px;
+    width: auto;
+}
+
+
+
+</style>
+<div class="call-btn">
+    <a href="tel:+9999999999"><img src="image/callbtn.gif"></a>
+</div>
+<section id="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="top-bar" align="center">
+              <ul class="list-inline">
+                <li> <span class="topbar-label"><i class="fa fa-mobile"></i></span> <span class="topbar-hightlight">+91 9876541230 </span> </li>
+                 <li> <span class="topbar-label"><i class="fa fa-whatsapp" aria-hidden="true"></i></span> <span class="topbar-hightlight"><a href="https://wa.me/573245652874" target="_blank"> +57 324 5652874</a></span> </li>
+                <li> <span class="topbar-label"><i class="fa fa-envelope-o"></i></span> <span class="topbar-hightlight"><a href="mailto:brayan201616@hotmail.com"> brayan201616@hotmail.com</a></span> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="top-bar" align="center">
+              <div class="social-icon">
+                <span><a class="fa fa-facebook" href="https://www.facebook.com/" title="Facebook" target="_blank"></a></span>
+                <span><a class="fa fa-instagram" href="https://www.instagram.com/" title="Instagram" target="_blank"></a></span>
+                <span><a class="fa fa-twitter" href="https://twitter.com/" title="Twitter" target="_blank"></a></span>
+                <span><a class="fa fa-youtube" href="https://www.youtube.com/" title="Youtube" target="_blank"></a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" align="center">
+            <div class="appointment-btn">
+              <a href="employee/index.php">
+                <button type="button">Descargar</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----Header------->
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="index.html">SIGTEM</a><!---Logo Image-->
+        </div>
+        <nav>
+          <div class="nav-mobile">
+            <a id="nav-toggle" href="#!"><span></span></a>
+          </div>
+          <ul class="nav-list">
+            <!-- Setting the links to #! will ensure that no action takes place on click. -->
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="contact.html">Contactanos</a></li>
+            
+            <li><a href="login.html">Entrar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!----End Header---->
+
+    <!----Slider----->
+    <style type="text/css">
+      .owl-carousel.slider .item img{
+        height: 650px;
+        width: 100%;
+      }
+      @media(max-width:  665px){
+        .owl-carousel.slider .item img{
+          width: 100%;
+          height: 350px;
+        }
+      }
+    </style><div class="container-fluid carousel">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="owl-carousel slider owl-theme">
+                  <div class="item">
+                    <div class="carousel-bg"></div>
+                    <img src="image/slider1.jpg">
+                    <div class="carousel-content">
+                      <h3><span class="heilight-link">Bienvenido!</span></h3>
+                      <h1>Sistema de gestión de tareas</h1>
+                      <p>Sistema y software de gestión de tareas simple y gratuito. Gestiona tareas y horas de trabajo, elimina el papeleo, controla los costes y aumenta la productividad. </p>
+                      <button><a href="appointment.php">Unete Ahora</a></button>
+                    </div>
+                  </div>
+                  
+                  <div class="item">
+                    <div class="carousel-bg"></div>
+                    <img src="image/slider2.jpg">
+                    <div class="carousel-content">
+                      <h3><span class="heilight-link">¿Por qué necesitas SIGTEM?</span></h3>
+                      <p>Un empleado inicia sesión e introduce el tiempo. Luego, un gerente ve inmediatamente la hora en los informes y exporta los datos.</p>
+                      <button><a href="about.php">Sobre Nosotros</a></button>
+                    </div>
+                  </div>
+                   
+                   <div class="item">
+                    <div class="carousel-bg"></div>
+                    <img src="image/slider3.jpg">
+                    <div class="carousel-content">
+                      <h3><span class="heilight-link">Sistema de gestión de tareas</span></h3>
+                      <p>El SIstema de Gestión de Tareas de Empleados en PHP y MySQL permite gestionar en orden las diferentes tareas que puede tener un funcionario de alguna empresa, en adición es posible evaluar la eficiencia de la gestión de los empleados</p>
+                      <button><a href="contact.php">Contactanos</a></button>
+                    </div>
+                  </div>
+    
+              </div>
+            </div>
+          </div>
+        </div> 
+    <!----End Slider--->
+
+    <!-----Facility Section Start------>
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 facility1">
+          <div class="facility-box">
+            <h3>PASO 1</h3>
+            <p>Regístrate gratis usando tu cuenta de Google. Simplemente inicia sesión con tus credenciales de Google y estás listo para pasar al siguiente paso.</p>
+          </div>
+        </div>
+        <div class="col-md-3 facility2">
+          <div class="facility-box">
+            <h3>PASO 2</h3>
+            <p>Crea proyectos, crea tareas en proyectos y asígnalas a tu equipo. Luego, todo lo que tus empleados tienen que hacer es hacer la tareas que se les asignan y reportar las horas que trabajan.</p>
+          </div>
+        </div>
+        <div class="col-md-3 facility3">
+          <div class="facility-box">
+            <h3>PASO 3</h3>
+            <p>El usuario Administrador sera el encargado de adiccionar a los empleados, o otros jefes de areas asignandole sus nombre de usuario y respectiva contraseña</p>
+          </div>
+        </div>
+        <div class="col-md-3 facility4">
+          <div class="facility-box">
+            <h3>PASO 4</h3>
+            <p>Los empleados ingresan progresos donde tienen la opcion de agregar una observacion y tanmbien cambiar el estado del Proyecto/Tarea</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!----About----->
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-12 p-5"><div class="content-head"><h2>SISTEMA <span class="heilight-link">DE GESTION</span> DE TAREAS</h2></div></div>
+      <div class="col-md-7">
+        <div class="about-content">
+          <h6 class="small-heading">BIENVENIDO A AYD DEL SENA</h6>
+          <h2>¿Qué es un sistema de gestión de tareas?</h2>
+          <p>SIGTEM es un software moderno de gestión del trabajo que te permite a ti y a tus empleados ingresar las horas de trabajo y ejecutar informes de trabajo detallados en línea.</p>
+          <p>Un buen sistema de gestión del trabajo automatiza los procesos, elimina el papeleo y reduce las tareas tediosas, lo que permite a los empleados concentrarse en hacer las cosas.
+          </p>
+
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="content-img mt-4" align="center">
+          <img src="image/about-banner.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---End About Us----->
+
+    <!----services----->
+    <!---Specialities---->
+  <section id="specialities">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 p-5"><div class="content-head"><h2>¿POR QUÉ <span class="heilight-link">ELEGIR</span> A SIGTEM?</h2></div></div>
+      <div class="col-md-3">
+        <div class="service-box">
+          <div class="service-img" align="center">
+            <img src="image/service1.png">
+          </div>
+          <h4>Gestionar el tiempo de los empleados</h4>
+          <p>Gestionar el tiempo de los empleados implica la supervisión y administración eficiente de las horas laborales de los trabajadores.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="service-box">
+          <div class="service-img" align="center">
+            <img src="image/service2.png">
+          </div>
+          <h4>Mejorar la eficacia</h4>
+          <p>Mejorar la eficacia implica optimizar los procesos y procedimientos para lograr resultados más eficientes y de mayor calidad.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="service-box">
+          <div class="service-img" align="center">
+            <img src="image/service3.png">
+          </div>
+          <h4>Planificar el trabajo</h4>
+          <p>Planificar el trabajo implica la organización y distribución estratégica de tareas y recursos para alcanzar metas y objetivos específicos.</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="service-box">
+          <div class="service-img" align="center">
+            <img src="image/service4.png">
+          </div>
+          <h4 style="font-size: 18px;">Controlar los costes laborales</h4>
+          <p>Controlar los costes laborales implica supervisar y gestionar los gastos asociados al personal de la empresa.</p>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <!----End Specialities --->
+    <!----End services--->
+  
+    <!----Testimonial----->
+    <style type="text/css">
+  /*---Counter------*/
+.counter-content{
+  padding: 60px 10px;
+}
+.counter-content button{
+  border: none;
+  outline: none;
+  background: #FF5F1F;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.counter-content button a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.counter-box1{
+  background: #1E90FF;
+  border-radius: 20px;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+.counter-box2{
+  background: #FF5F1F;
+  border-radius: 20px;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+.counter-box1 .counter-item img,
+.counter-box2 .counter-item img{
+  height: 80px;
+  width: auto;
+}
+.counter-box1 h5,
+.counter-box1 p,
+.counter-box2 h5,
+.counter-box2 p{
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+</style>
+<!----Counter--------->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-12 mt-5 mb-5"><<div class="content-head"><h2>NUESTROS <span class="heilight-link">LOGROS</span> OBTENIDOS</h2></div></div>
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="counter-box1">
+              <div class="counter-item" align="center">
+                <img src="image/happy.png">
+              </div>
+                <h5>+ 100</h5>
+                <p>Clientes Felices</p>             
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="counter-box2">
+              <div class="counter-item" align="center">
+                <img src="image/employee.png">
+              </div>
+                <h5>+ 70</h5>
+                <p>Total de Usuarios</p>             
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="counter-box2">
+              <div class="counter-item" align="center">
+                <img src="image/award.png">
+              </div>
+                <h5>+ 1</h5>
+                <p>premio por desempeño</p>             
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-6">
+            <div class="counter-box1">
+              <div class="counter-item" align="center">
+                <img src="image/experience.png">
+              </div>
+                <h5>+ 4 Años</h5>
+                <p>Experiencia</p>             
+            </div>
+          </div>
+        </div>
+  </div>
+
+  <!----End Counter----->
+    <!----End Testimonial--->
+
+  <!----Team----->
+  <!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
+	<style type="text/css">
+		p,a,h1,h2,h3,h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.section-team {
+	font-family: "Poppins", sans-serif;
+	padding: 80px 0;
+}
+
+.section-team .header-section {
+	margin-bottom: 50px;
+}
+
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+	font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
+}
+
+.section-team .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-team .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #f6f9ff;
+	border-radius: 5px;
+}
+
+.section-team .single-person:hover {
+	background: linear-gradient(to right, #016cec, #00b5f7);
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+	padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+	width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, #016cec, #00b5f7);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+	background: none;
+	background-color: #fff;
+	color: #016cec;
+}
+
+.section-team .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #016cec;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+	color: #fff;
+}
+	</style>
+</head>
+
+<body>
+
+	<section class="section-team">
+		<div class="container">
+			<!-- Start Header Section -->
+			<div class="row justify-content-center text-center">
+				<div class="col-md-8 col-lg-6">
+					<div class="header-section">
+						<h3 class="small-title">Nuestros expertos</h3>
+						<h2 class="title">Reunámonos con los miembros de nuestro equipo.</h2>
+					</div>
+				</div>
+			</div>
+			<!-- / End Header Section -->
+			<div class="row">
+				<!-- Start Single Person -->
+				<div class="col-sm-6 col-lg-4 col-xl-3">
+					<div class="single-person">
+						<div class="person-image">
+							<img src="image/team1.jpg" alt="">
+							<span class="icon">
+								<i class="fab fa-facebook"></i>
+							</span>
+						</div>
+						<div class="person-info" align="center">
+							<h3 class="full-name">Brayan Torres Velasco</h3>
+							<span class="speciality">DESARROLLADOR WEB</span>
+						</div>
+					</div>
+				</div>
+				<!-- / End Single Person -->
+				<!-- Start Single Person -->
+				<div class="col-sm-6 col-lg-4 col-xl-3">
+					<div class="single-person">
+						<div class="person-image">
+							<img src="image/team1.jpg" alt="">
+							<span class="icon">
+								<i class="fab fa-facebook"></i>
+							</span>
+						</div>
+						<div class="person-info" align="center">
+							<h3 class="full-name">Brayan Torres Velasco</h3>
+							<span class="speciality">DESARROLLADOR WEB</span>
+						</div>
+					</div>
+				</div>
+				<!-- / End Single Person -->
+				<!-- Start Single Person -->
+				<div class="col-sm-6 col-lg-4 col-xl-3">
+					<div class="single-person">
+						<div class="person-image">
+							<img src="image/team1.jpg" alt="">
+							<span class="icon">
+								<i class="fab fa-facebook"></i>
+							</span>
+						</div>
+						<div class="person-info" align="center">
+							<h3 class="full-name">Brayan Torres Velasco</h3>
+							<span class="speciality">DISEÑADOR WEB</span>
+						</div>
+					</div>
+				</div>
+				<!-- / End Single Person -->
+				<!-- Start Single Person -->
+				<div class="col-sm-6 col-lg-4 col-xl-3">
+					<div class="single-person">
+						<div class="person-image">
+							<img src="image/team1.jpg" alt="">
+							<span class="icon">
+								<i class="fab fa-facebook"></i>
+							</span>
+						</div>
+						<div class="person-info" align="center">
+							<h3 class="full-name">Brayan Torres Velasco</h3>
+							<span class="speciality">ESCRITOR DE CONTENIDO</span>
+						</div>
+					</div>
+				</div>
+				<!-- / End Single Person -->
+			</div>
+		</div>
+	</section>
+
+</body>
+</html> 
+    <!----End Team--->
+
+    <!----Footer----->
+    <style type="text/css">
+      .newsletter input{
+        position: relative;
+        width: 100%;
+        height: 44px;
+        outline: none;
+        border: none;
+      }
+      .newsletter button{
+        position: relative;
+        background: #1E90FF;
+        outline: none;
+        border: none;
+        color: #fff;
+        font-weight: 800;
+        padding: 10px 20px;
+      }
+      .socila-links{
+        position: relative;
+        top: 40px;
+      }
+      .socila-links img{
+        height: 40px;
+        width: auto;
+      }
+    </style>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="footer-box">
+                <h3>SIGTEM</h3><!---Logo Image--->
+                <p>SIGTEM es un software moderno de gestión del trabajo que te permite a ti y a tus empleados ingresar las horas de trabajo y ejecutar informes de trabajo detallados en línea</p>
+                <div class="social-media">
+                  <a href="https://www.facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram." target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-twitter" target="_blank"></i></a>
+                  <a href="#"><i class="fa fa-linkedin" target="_blank"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-box">
+                <h5>ENLACES ÚTILES</h5>
+                <ul>
+                  <li><a href="about.php"><i class="fa fa-circle"></i> Sobre nosotros</a></li>
+                  <li><a href="doctors.php"><i class="fa fa-circle"></i> Contáctenos</a></li>
+                  <li><a href="appointment.php"><i class="fa fa-circle"></i> Panel</a></li>
+                  <li><a href="term-condition.php" target="_blank"><i class="fa fa-circle"></i> T & C</a></li>
+                  <li><a href="privacy-policy.php" target="_blank"><i class="fa fa-circle"></i> Políticas de privacidad</a></li>
+                  <li><a href="admin-login.php"><i class="fa fa-circle"></i> Administración</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            
+    
+            <div class="col-md-3">
+              <div class="footer-box">
+                <h5>LLEGA A NOSOTROS</h5>
+                <div class="contact-me">
+                  <div class="hospital-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7970.132631358752!2d-76.4857704!3d2.79667895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30766a4faa30a5%3A0xc2435b4c03ce60e2!2sCaldono%2C%20Cauca!5e0!3m2!1ses!2sco!4v1699728212275!5m2!1ses!2sco" width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+                  <ul>
+                    <li><i class="fa fa-map-marker"></i> Caldono, Cauca<br>Corregimiento de Siberia, Colombia</li>
+                     <li><i class="fa fa-mobile"></i> +57 3245652874</li>
+                      <li><i class="fa fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/573245652874" target="_blank"> +57 3245652874</a></li>
+                      <li><i class="fa fa-envelope-o"></i> brayan201616@hotmail.com</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-3">
+              <div class="footer-box">
+                <h5>SIGUENOS</h5>
+    
+                <div class="newsletter">
+                  <form>
+                    <input type="email" name="" placeholder="example@gmail.com">
+                    <button type="button">Suscribirte</button>
+                  </form>
+                </div>
+                <div class="socila-links" align="center">
+                  <a href="#"><img src="image/facebook.png"></a>
+                  <a href="#"><img src="image/instagram.png"></a>
+                  <a href="#"><img src="image/twitter.png"></a>
+                  <a href="#"><img src="image/youtube.png"></a>
+                </div>
+              </div>
+            </div>
+    
+    
+          </div>
+        </div>
+      </footer>
+      <section id="developer-zone">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="developer" align="center">
+              <i class="fa fa-copyright"></i> Copyright @<span>Sistema de gestión de tareas</span> | Todos los derechos reservados | 2023-24</a>
+            </div>
+          </div>
+        </div>
+      </section> 
+    <!----End Footer--->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/navigation.js"></script>
+    <script type="text/javascript" src="js/validation.js"></script>
+    <script type="text/javascript">
+     
+    </script>
+
+  </body>
+</html>
